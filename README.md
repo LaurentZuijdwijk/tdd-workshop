@@ -29,6 +29,8 @@ Signing of the request must consist of the following elements:
 
 What the api will look like and how the signing is done exactly is up to you, as long as it is easily testable.
 
+The focus of the exercise should be to iteratively write code and tests. The tests should help think about your code and help refactoring. 
+
 ### Technologies
 
 #### Tape for testing
