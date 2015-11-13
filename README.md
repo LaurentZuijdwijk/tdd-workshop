@@ -10,7 +10,8 @@ run tests ```npm test```
 
 ## Instructions
 
-Write a small NodeJs module to sign url's and contain Express middleware to validate signed requests. This way the client and server can use the same module.
+#### Goals:
+Write a small NodeJs module to sign and validate requests. It should be able to sign urls and should expose Express middleware to validate incoming requests. 
 
 #### example:
 
@@ -34,7 +35,7 @@ What the api will look like and how the signing is done exactly is up to you, as
 A simple TAP library. The barebones are set-up in /test/test.js. Run with ```npm test```
 https://ci.testling.com/guide/tape
 
-#### Node API that are useful 
+#### Node API's that are useful 
 ##### querystring
 https://nodejs.org/api/querystring.html
 ```javascript
