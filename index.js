@@ -13,9 +13,19 @@ function signString(str) {
     return shasum.digest('hex');
 }
 
+function hashUrl(url, clientid, secretkey) {
+	var tokenizedUrl = urlParser(url);
+	if(tokenizedUrl.query){
+		url = url + "&" 
+	}else {
+		url = url + "?"
+	}
+	console.log(signString(url + secretkey));
+	return url + 'hash=' + signString(url + secretkey) + '&clientid=' + clientid ;
+}
 
 module.exports = {
-
+	hashUrl: hashUrl
 };
 
 
