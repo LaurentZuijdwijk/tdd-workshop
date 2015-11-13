@@ -80,6 +80,11 @@ app.use(function(req,res,next){
 
 ```
 
+usefull request object keys:
+
+* req.path
+* req.method
+* req.query
 
 
 
