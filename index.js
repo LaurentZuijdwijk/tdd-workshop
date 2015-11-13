@@ -6,7 +6,7 @@ var _ = require('lodash');
 var util = require('util');
 
 
-//
+// Example function for signing strings.
 function signString(str) {
     var shasum = crypto.createHash('sha1');
     shasum.update(str);
