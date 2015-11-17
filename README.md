@@ -11,7 +11,9 @@ run tests ```npm test```
 ## Instructions
 
 #### Goals:
-Write a small NodeJs module to sign and validate requests. It should be able to sign urls and should expose Express middleware to validate incoming requests. 
+Write a small NodeJs module to sign and validate requests. It should be able to sign urls and should expose Express middleware to validate incoming requests. A function for url signing called ```signString``` is included in the code. It takes a string as parameter and returns a hash string. The hashing algorithm used is sha1.
+
+Make sure to start coding and writing tests iteratively. Writing tests should learn you more about the edge cases you will encounter in writing this module and make it easy to refactor your code when needed. 
 
 #### example:
 
